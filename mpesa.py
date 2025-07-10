@@ -291,8 +291,9 @@ time_category_insights_ui(df_clean)
 
 # --- PART G: Conversational Interface (Gemini, Interactive, with Graph Data) ---
 # You may want to set your API key securely in production
-api_key =  "AIzaSyDPXhpZzkhnLUiSZGmtbH23RrVj3L54wXE"
+api_key =  os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=api_key)
+
 
 # --- Enrich Gemini's data bank: Add sample rows from each cluster ---
 cluster_samples = []
