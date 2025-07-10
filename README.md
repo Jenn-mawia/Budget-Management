@@ -69,15 +69,16 @@ Date,Amount,Description,Transaction_Type
 ```
 
 ### Folder Structure
+```
 Budget-Management/
 ├── README.md                   # Project documentation
 ├── requirements.txt            # Python dependencies
-├── model.ipynb                 # Main analysis notebook 
+├── model.ipynb                 # Main analysis notebook
 ├── mpesa_data.csv             # M-Pesa transaction dataset
-├── mpesa.py                   # M-Pesa data processing functions -> Main python script
-├── converter.py               # Data conversion utilities 
+├── mpesa.py                   # M-Pesa data processing functions
+├── converter.py               # Data conversion utilities
 └── time_category_insights.py  # Time-based analysis and insights
-
+```
 
 ### Environment Variables Setup
 
